@@ -1,0 +1,34 @@
+body{
+    background-color: blueviolet;
+}
+
+.header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/*Gameboard*/
+.gametable{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    border-collapse: collapse;
+    font-size: 2rem;
+    font-weight: 600;
+    width: fit-content;
+    height: 50%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+.box{
+    border: 10px rgb(185, 185, 185) solid;
+    background-color: white;
+    color: black;
+    width: 1.5em;
+    height: 1.5em;
+    font-size: 5rem;
+    text-align: center;
+    cursor: default;
+}
